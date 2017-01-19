@@ -1,0 +1,357 @@
+@import "../variables";
+
+/*------------------------------------*\
+    Reset
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text {
+    &-color        { color: @orange   !important; }
+}
+
+
+/**
+* Text highlight
+*/
+
+.text {
+    &-highlight {
+        background-color: @orange;
+    }
+}
+
+
+/**
+* Title underline
+*/
+
+.title {
+    &-underline {
+        border-bottom: 4px solid @orange;
+    }
+}
+
+
+/**
+* Background color
+*/
+
+.background {
+    &-color        { background-color: @orange   !important; }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+#navigation {
+    .navbar-nav {
+        > li {
+            > a {
+                &:after {
+                    background-color: @orange;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header {
+    .logo {
+        background-color: @orange;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+    background-color: @orange;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader Pace JS
+\*------------------------------------*/
+
+.pace {
+    .pace-progress {
+        background-color: @orange;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Hero
+\*------------------------------------*/
+
+/**
+* Hero Text Rotator
+*/
+
+.text-rotator {
+    > .text-rotator-item {
+        > .item {
+            > span {
+                border-left: 3px solid @orange;
+                
+                @media(max-width: 479px) {
+                    border-left: 2px solid @orange;
+                }
+            }
+        }
+    }
+    
+    > .rotator-pagination {
+        > .page {
+            &.active {
+                background-color: @orange;
+            }
+        }
+    }
+    
+    > .rotator-page-number {
+        > .number {
+            > .total-items {
+                color: @orange;
+            }
+        }
+    }
+    
+    > .rotator-progress-bar {
+        &:before {
+            background-color: @orange;
+        }
+        
+        > .rotator-bar {
+            background-color: @orange;
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+.profile {
+    .profile-description {
+        .circle {
+            background-color: @orange;
+        }
+    }
+}
+   
+.profile-chart {       
+    .item {
+        &:nth-child(1) {
+            > span {
+                &.percent {
+                    &:before {
+                        background-color: @orange;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Profile - Gauge chart
+*/
+
+.gauge-chart-graph {
+    .ct-series {
+        &-a {
+            .ct-slice-donut {
+                stroke: @orange; 
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+.projects {  
+    > .item {
+        .hover-bg {
+            @media(min-width: 992px) {
+                background-color: @orange;
+            }
+        }
+        
+        .has-sideline {
+            &:before {
+                background-color: @orange;
+            }
+        }
+    }
+}
+
+
+/**
+* Project nav
+*/
+
+.project-nav {
+    ul {
+        > li {
+            &.active {
+                > a {
+                    &:before {
+                        background-color: @orange;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Project preview
+*/
+
+.mfp-triggerBtn {
+    &:before {
+        background-color: @orange;
+    }
+}
+
+.mfp-projectTitleWrap {
+    &:before {
+        background-color: @orange;
+    }
+}
+
+.mfp-projectLink {
+    &:hover {
+        &:before {
+            background-color: @orange;
+        }
+    }
+}
+
+.mfp-triggerClose {
+    background-color: @orange;
+}
+
+button.mfp-arrow {
+    &:before {
+        background-color: @orange;
+    }
+}
+
+.mfp-preloader {
+    background-color: @orange;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Studio
+\*------------------------------------*/
+
+.gallery-carousel {   
+    .gallery-cell {
+        .cell-number {
+            background-color: @orange;   
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Stats
+\*------------------------------------*/
+
+.area-chart-wrapper {
+    ul {
+        > li {
+            &:nth-child(2) {
+                > span {
+                    &:before {
+                        background-color: @orange;
+                    }
+                }
+            }
+            
+            > span { 
+                &:before {
+                    background-color: @orange;
+                }
+            }
+        }
+    }
+}
+
+.area-chart-graph {
+    .ct-series {        
+        &-b { 
+            .ct-area {
+                fill: @orange;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer {
+    ul {
+        > li {
+            a {
+                &:before {
+                    background-color: @orange;
+                }
+            }
+        }
+    }
+}

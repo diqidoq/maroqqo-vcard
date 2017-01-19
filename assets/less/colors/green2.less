@@ -1,0 +1,357 @@
+@import "../variables";
+
+/*------------------------------------*\
+    Reset
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text {
+    &-color        { color: @green2   !important; }
+}
+
+
+/**
+* Text highlight
+*/
+
+.text {
+    &-highlight {
+        background-color: @green2;
+    }
+}
+
+
+/**
+* Title underline
+*/
+
+.title {
+    &-underline {
+        border-bottom: 4px solid @green2;
+    }
+}
+
+
+/**
+* Background color
+*/
+
+.background {
+    &-color        { background-color: @green2   !important; }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+#navigation {
+    .navbar-nav {
+        > li {
+            > a {
+                &:after {
+                    background-color: @green2;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header {
+    .logo {
+        background-color: @green2;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+    background-color: @green2;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader Pace JS
+\*------------------------------------*/
+
+.pace {
+    .pace-progress {
+        background-color: @green2;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Hero
+\*------------------------------------*/
+
+/**
+* Hero Text Rotator
+*/
+
+.text-rotator {
+    > .text-rotator-item {
+        > .item {
+            > span {
+                border-left: 3px solid @green2;
+                
+                @media(max-width: 479px) {
+                    border-left: 2px solid @green2;
+                }
+            }
+        }
+    }
+    
+    > .rotator-pagination {
+        > .page {
+            &.active {
+                background-color: @green2;
+            }
+        }
+    }
+    
+    > .rotator-page-number {
+        > .number {
+            > .total-items {
+                color: @green2;
+            }
+        }
+    }
+    
+    > .rotator-progress-bar {
+        &:before {
+            background-color: @green2;
+        }
+        
+        > .rotator-bar {
+            background-color: @green2;
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+.profile {
+    .profile-description {
+        .circle {
+            background-color: @green2;
+        }
+    }
+}
+   
+.profile-chart {       
+    .item {
+        &:nth-child(1) {
+            > span {
+                &.percent {
+                    &:before {
+                        background-color: @green2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Profile - Gauge chart
+*/
+
+.gauge-chart-graph {
+    .ct-series {
+        &-a {
+            .ct-slice-donut {
+                stroke: @green2; 
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+.projects {  
+    > .item {
+        .hover-bg {
+            @media(min-width: 992px) {
+                background-color: @green2;
+            }
+        }
+        
+        .has-sideline {
+            &:before {
+                background-color: @green2;
+            }
+        }
+    }
+}
+
+
+/**
+* Project nav
+*/
+
+.project-nav {
+    ul {
+        > li {
+            &.active {
+                > a {
+                    &:before {
+                        background-color: @green2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Project preview
+*/
+
+.mfp-triggerBtn {
+    &:before {
+        background-color: @green2;
+    }
+}
+
+.mfp-projectTitleWrap {
+    &:before {
+        background-color: @green2;
+    }
+}
+
+.mfp-projectLink {
+    &:hover {
+        &:before {
+            background-color: @green2;
+        }
+    }
+}
+
+.mfp-triggerClose {
+    background-color: @green2;
+}
+
+button.mfp-arrow {
+    &:before {
+        background-color: @green2;
+    }
+}
+
+.mfp-preloader {
+    background-color: @green2;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Studio
+\*------------------------------------*/
+
+.gallery-carousel {   
+    .gallery-cell {
+        .cell-number {
+            background-color: @green2;   
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Stats
+\*------------------------------------*/
+
+.area-chart-wrapper {
+    ul {
+        > li {
+            &:nth-child(2) {
+                > span {
+                    &:before {
+                        background-color: @green2;
+                    }
+                }
+            }
+            
+            > span { 
+                &:before {
+                    background-color: @green2;
+                }
+            }
+        }
+    }
+}
+
+.area-chart-graph {
+    .ct-series {        
+        &-b { 
+            .ct-area {
+                fill: @green2;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer {
+    ul {
+        > li {
+            a {
+                &:before {
+                    background-color: @green2;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,234 @@
+/*------------------------------------*\
+    Reset
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text-color {
+  color: #21b7b6 !important;
+}
+
+
+/**
+* Text highlight
+*/
+
+.text-highlight {
+  background-color: #21b7b6;
+}
+
+
+/**
+* Title underline
+*/
+
+.title-underline {
+  border-bottom: 4px solid #21b7b6;
+}
+
+
+/**
+* Background color
+*/
+
+.background-color {
+  background-color: #21b7b6 !important;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+#navigation .navbar-nav > li > a:after {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header .logo {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader Pace JS
+\*------------------------------------*/
+.pace .pace-progress {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Hero
+\*------------------------------------*/
+
+/**
+* Hero Text Rotator
+*/
+
+.text-rotator > .text-rotator-item > .item > span {
+  border-left: 3px solid #21b7b6;
+}
+@media (max-width: 479px) {
+  .text-rotator > .text-rotator-item > .item > span {
+    border-left: 2px solid #21b7b6;
+  }
+}
+.text-rotator > .rotator-pagination > .page.active {
+  background-color: #21b7b6;
+}
+.text-rotator > .rotator-page-number > .number > .total-items {
+  color: #21b7b6;
+}
+.text-rotator > .rotator-progress-bar:before {
+  background-color: #21b7b6;
+}
+.text-rotator > .rotator-progress-bar > .rotator-bar {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+.profile .profile-description .circle {
+  background-color: #21b7b6;
+}
+.profile-chart .item:nth-child(1) > span.percent:before {
+  background-color: #21b7b6;
+}
+
+
+/**
+* Profile - Gauge chart
+*/
+
+.gauge-chart-graph .ct-series-a .ct-slice-donut {
+  stroke: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+@media (min-width: 992px) {
+  .projects > .item .hover-bg {
+    background-color: #21b7b6;
+  }
+}
+.projects > .item .has-sideline:before {
+  background-color: #21b7b6;
+}
+
+
+/**
+* Project nav
+*/
+
+.project-nav ul > li.active > a:before {
+  background-color: #21b7b6;
+}
+
+
+/**
+* Project preview
+*/
+
+.mfp-triggerBtn:before {
+  background-color: #21b7b6;
+}
+.mfp-projectTitleWrap:before {
+  background-color: #21b7b6;
+}
+.mfp-projectLink:hover:before {
+  background-color: #21b7b6;
+}
+.mfp-triggerClose {
+  background-color: #21b7b6;
+}
+button.mfp-arrow:before {
+  background-color: #21b7b6;
+}
+.mfp-preloader {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Studio
+\*------------------------------------*/
+
+.gallery-carousel .gallery-cell .cell-number {
+  background-color: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Stats
+\*------------------------------------*/
+
+.area-chart-wrapper ul > li:nth-child(2) > span:before {
+  background-color: #21b7b6;
+}
+.area-chart-wrapper ul > li > span:before {
+  background-color: #21b7b6;
+}
+.area-chart-graph .ct-series-b .ct-area {
+  fill: #21b7b6;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer ul > li a:before {
+  background-color: #21b7b6;
+}

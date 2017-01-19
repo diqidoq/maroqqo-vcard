@@ -1,0 +1,357 @@
+@import "../variables";
+
+/*------------------------------------*\
+    Reset
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text {
+    &-color        { color: @blue   !important; }
+}
+
+
+/**
+* Text highlight
+*/
+
+.text {
+    &-highlight {
+        background-color: @blue;
+    }
+}
+
+
+/**
+* Title underline
+*/
+
+.title {
+    &-underline {
+        border-bottom: 4px solid @blue;
+    }
+}
+
+
+/**
+* Background color
+*/
+
+.background {
+    &-color        { background-color: @blue   !important; }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+#navigation {
+    .navbar-nav {
+        > li {
+            > a {
+                &:after {
+                    background-color: @blue;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header {
+    .logo {
+        background-color: @blue;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+    background-color: @blue;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader Pace JS
+\*------------------------------------*/
+
+.pace {
+    .pace-progress {
+        background-color: @blue;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Hero
+\*------------------------------------*/
+
+/**
+* Hero Text Rotator
+*/
+
+.text-rotator {
+    > .text-rotator-item {
+        > .item {
+            > span {
+                border-left: 3px solid @blue;
+                
+                @media(max-width: 479px) {
+                    border-left: 2px solid @blue;
+                }
+            }
+        }
+    }
+    
+    > .rotator-pagination {
+        > .page {
+            &.active {
+                background-color: @blue;
+            }
+        }
+    }
+    
+    > .rotator-page-number {
+        > .number {
+            > .total-items {
+                color: @blue;
+            }
+        }
+    }
+    
+    > .rotator-progress-bar {
+        &:before {
+            background-color: @blue;
+        }
+        
+        > .rotator-bar {
+            background-color: @blue;
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+.profile {
+    .profile-description {
+        .circle {
+            background-color: @blue;
+        }
+    }
+}
+   
+.profile-chart {       
+    .item {
+        &:nth-child(1) {
+            > span {
+                &.percent {
+                    &:before {
+                        background-color: @blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Profile - Gauge chart
+*/
+
+.gauge-chart-graph {
+    .ct-series {
+        &-a {
+            .ct-slice-donut {
+                stroke: @blue; 
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+.projects {  
+    > .item {
+        .hover-bg {
+            @media(min-width: 992px) {
+                background-color: @blue;
+            }
+        }
+        
+        .has-sideline {
+            &:before {
+                background-color: @blue;
+            }
+        }
+    }
+}
+
+
+/**
+* Project nav
+*/
+
+.project-nav {
+    ul {
+        > li {
+            &.active {
+                > a {
+                    &:before {
+                        background-color: @blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Project preview
+*/
+
+.mfp-triggerBtn {
+    &:before {
+        background-color: @blue;
+    }
+}
+
+.mfp-projectTitleWrap {
+    &:before {
+        background-color: @blue;
+    }
+}
+
+.mfp-projectLink {
+    &:hover {
+        &:before {
+            background-color: @blue;
+        }
+    }
+}
+
+.mfp-triggerClose {
+    background-color: @blue;
+}
+
+button.mfp-arrow {
+    &:before {
+        background-color: @blue;
+    }
+}
+
+.mfp-preloader {
+    background-color: @blue;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Studio
+\*------------------------------------*/
+
+.gallery-carousel {   
+    .gallery-cell {
+        .cell-number {
+            background-color: @blue;   
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Stats
+\*------------------------------------*/
+
+.area-chart-wrapper {
+    ul {
+        > li {
+            &:nth-child(2) {
+                > span {
+                    &:before {
+                        background-color: @blue;
+                    }
+                }
+            }
+            
+            > span { 
+                &:before {
+                    background-color: @blue;
+                }
+            }
+        }
+    }
+}
+
+.area-chart-graph {
+    .ct-series {        
+        &-b { 
+            .ct-area {
+                fill: @blue;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer {
+    ul {
+        > li {
+            a {
+                &:before {
+                    background-color: @blue;
+                }
+            }
+        }
+    }
+}

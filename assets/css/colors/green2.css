@@ -1,0 +1,234 @@
+/*------------------------------------*\
+    Reset
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text-color {
+  color: #3c948b !important;
+}
+
+
+/**
+* Text highlight
+*/
+
+.text-highlight {
+  background-color: #3c948b;
+}
+
+
+/**
+* Title underline
+*/
+
+.title-underline {
+  border-bottom: 4px solid #3c948b;
+}
+
+
+/**
+* Background color
+*/
+
+.background-color {
+  background-color: #3c948b !important;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+#navigation .navbar-nav > li > a:after {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header .logo {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader Pace JS
+\*------------------------------------*/
+.pace .pace-progress {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Hero
+\*------------------------------------*/
+
+/**
+* Hero Text Rotator
+*/
+
+.text-rotator > .text-rotator-item > .item > span {
+  border-left: 3px solid #3c948b;
+}
+@media (max-width: 479px) {
+  .text-rotator > .text-rotator-item > .item > span {
+    border-left: 2px solid #3c948b;
+  }
+}
+.text-rotator > .rotator-pagination > .page.active {
+  background-color: #3c948b;
+}
+.text-rotator > .rotator-page-number > .number > .total-items {
+  color: #3c948b;
+}
+.text-rotator > .rotator-progress-bar:before {
+  background-color: #3c948b;
+}
+.text-rotator > .rotator-progress-bar > .rotator-bar {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+.profile .profile-description .circle {
+  background-color: #3c948b;
+}
+.profile-chart .item:nth-child(1) > span.percent:before {
+  background-color: #3c948b;
+}
+
+
+/**
+* Profile - Gauge chart
+*/
+.gauge-chart-graph .ct-series-a .ct-slice-donut {
+  stroke: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+@media (min-width: 992px) {
+  .projects > .item .hover-bg {
+    background-color: #3c948b;
+  }
+}
+.projects > .item .has-sideline:before {
+  background-color: #3c948b;
+}
+
+
+/**
+* Project nav
+*/
+
+.project-nav ul > li.active > a:before {
+  background-color: #3c948b;
+}
+
+
+/**
+* Project preview
+*/
+
+.mfp-triggerBtn:before {
+  background-color: #3c948b;
+}
+.mfp-projectTitleWrap:before {
+  background-color: #3c948b;
+}
+.mfp-projectLink:hover:before {
+  background-color: #3c948b;
+}
+.mfp-triggerClose {
+  background-color: #3c948b;
+}
+button.mfp-arrow:before {
+  background-color: #3c948b;
+}
+.mfp-preloader {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Studio
+\*------------------------------------*/
+
+.gallery-carousel .gallery-cell .cell-number {
+  background-color: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Stats
+\*------------------------------------*/
+
+.area-chart-wrapper ul > li:nth-child(2) > span:before {
+  background-color: #3c948b;
+}
+.area-chart-wrapper ul > li > span:before {
+  background-color: #3c948b;
+}
+.area-chart-graph .ct-series-b .ct-area {
+  fill: #3c948b;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer ul > li a:before {
+  background-color: #3c948b;
+}

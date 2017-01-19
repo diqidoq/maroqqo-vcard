@@ -1,0 +1,357 @@
+@import "../variables";
+
+/*------------------------------------*\
+    Reset
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text {
+    &-color        { color: @pink   !important; }
+}
+
+
+/**
+* Text highlight
+*/
+
+.text {
+    &-highlight {
+        background-color: @pink;
+    }
+}
+
+
+/**
+* Title underline
+*/
+
+.title {
+    &-underline {
+        border-bottom: 4px solid @pink;
+    }
+}
+
+
+/**
+* Background color
+*/
+
+.background {
+    &-color        { background-color: @pink   !important; }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+#navigation {
+    .navbar-nav {
+        > li {
+            > a {
+                &:after {
+                    background-color: @pink;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header {
+    .logo {
+        background-color: @pink;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+    background-color: @pink;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader Pace JS
+\*------------------------------------*/
+
+.pace {
+    .pace-progress {
+        background-color: @pink;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Hero
+\*------------------------------------*/
+
+/**
+* Hero Text Rotator
+*/
+
+.text-rotator {
+    > .text-rotator-item {
+        > .item {
+            > span {
+                border-left: 3px solid @pink;
+                
+                @media(max-width: 479px) {
+                    border-left: 2px solid @pink;
+                }
+            }
+        }
+    }
+    
+    > .rotator-pagination {
+        > .page {
+            &.active {
+                background-color: @pink;
+            }
+        }
+    }
+    
+    > .rotator-page-number {
+        > .number {
+            > .total-items {
+                color: @pink;
+            }
+        }
+    }
+    
+    > .rotator-progress-bar {
+        &:before {
+            background-color: @pink;
+        }
+        
+        > .rotator-bar {
+            background-color: @pink;
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+.profile {
+    .profile-description {
+        .circle {
+            background-color: @pink;
+        }
+    }
+}
+   
+.profile-chart {       
+    .item {
+        &:nth-child(1) {
+            > span {
+                &.percent {
+                    &:before {
+                        background-color: @pink;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Profile - Gauge chart
+*/
+
+.gauge-chart-graph {
+    .ct-series {
+        &-a {
+            .ct-slice-donut {
+                stroke: @pink; 
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+.projects {  
+    > .item {
+        .hover-bg {
+            @media(min-width: 992px) {
+                background-color: @pink;
+            }
+        }
+        
+        .has-sideline {
+            &:before {
+                background-color: @pink;
+            }
+        }
+    }
+}
+
+
+/**
+* Project nav
+*/
+
+.project-nav {
+    ul {
+        > li {
+            &.active {
+                > a {
+                    &:before {
+                        background-color: @pink;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* Project preview
+*/
+
+.mfp-triggerBtn {
+    &:before {
+        background-color: @pink;
+    }
+}
+
+.mfp-projectTitleWrap {
+    &:before {
+        background-color: @pink;
+    }
+}
+
+.mfp-projectLink {
+    &:hover {
+        &:before {
+            background-color: @pink;
+        }
+    }
+}
+
+.mfp-triggerClose {
+    background-color: @pink;
+}
+
+button.mfp-arrow {
+    &:before {
+        background-color: @pink;
+    }
+}
+
+.mfp-preloader {
+    background-color: @pink;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Studio
+\*------------------------------------*/
+
+.gallery-carousel {   
+    .gallery-cell {
+        .cell-number {
+            background-color: @pink;   
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Stats
+\*------------------------------------*/
+
+.area-chart-wrapper {
+    ul {
+        > li {
+            &:nth-child(2) {
+                > span {
+                    &:before {
+                        background-color: @pink;
+                    }
+                }
+            }
+            
+            > span { 
+                &:before {
+                    background-color: @pink;
+                }
+            }
+        }
+    }
+}
+
+.area-chart-graph {
+    .ct-series {        
+        &-b { 
+            .ct-area {
+                fill: @pink;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer {
+    ul {
+        > li {
+            a {
+                &:before {
+                    background-color: @pink;
+                }
+            }
+        }
+    }
+}
